@@ -43,8 +43,8 @@ body::before {
 .form-container{
     display: flex;
     border-radius: 2rem;
-    height: 800px;
-    width: 1300px;
+    height: 600px;
+    width: 1000px;
     margin: auto;
     background-color: white;
     overflow: hidden;
@@ -52,7 +52,7 @@ body::before {
 }
 
 .cover-image-div{
-    width:500px;
+    width:400px;
     background-image: url("cover.jpg");
     background-size: cover;
     display: flex;
@@ -75,15 +75,15 @@ body::before {
 }
 
 .first-paragraph{
-    width: 800px;
-    height: 200px;
+    width: 600px;
+    height: 100px;
     padding: 30px;
     font-size: var(--normal-paragraph-font-size);
 }
 
 .signup-option-div{
-    width: 800px;
-    height: 200px;
+    width: 600px;
+    height: 100px;
     padding: 30px;
     padding-top: 100px;
     font-size: var(--normal-paragraph-font-size);
@@ -107,7 +107,7 @@ body::before {
 
 #the-form{
     height: 300px;
-    width: 800px;
+    width: 600px;
     display: flex;
 }
 
