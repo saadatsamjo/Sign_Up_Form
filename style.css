@@ -86,7 +86,7 @@ body::before {
     width: 600px;
     height: 100px;
     padding: 30px;
-    padding-top: 100px;
+    padding-top: 10px;
     font-size: var(--normal-paragraph-font-size);
 }
 
@@ -130,8 +130,10 @@ body::before {
 
 
 button{
-    position: absolute;
-    top:730px;
+    /* position: absolute; */
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
     height: 40px;
     background-color: var(--secondary-color);
     border: none;
